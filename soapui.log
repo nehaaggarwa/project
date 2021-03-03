@@ -1,0 +1,33 @@
+2021-03-03 17:21:04,684 WARN  [SoapUI] Missing folder [C:\Users\NehaGoel\Desktop\cust\my-app\ext] for external libraries
+2021-03-03 17:21:05,007 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\NehaGoel\soapui-settings.xml]
+2021-03-03 17:21:06,280 INFO  [WsdlProject] Loaded project from [file:/C:/Users/NehaGoel/Desktop/cust/my-app/Customer-Project-soapui-project.xml]
+2021-03-03 17:21:07,257 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Customer Project1]
+2021-03-03 17:21:07,259 INFO  [SoapUITestCaseRunner] Running Project [Customer Project1], runType = SEQUENTIAL
+2021-03-03 17:21:07,312 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Get customer details]
+2021-03-03 17:21:07,340 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-03-03 17:21:07,418 INFO  [SoapUITestCaseRunner] running step [SaveCustomer]
+2021-03-03 17:21:10,286 INFO  [log] 7032
+2021-03-03 17:21:10,293 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-03-03 17:21:10,294 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+2021-03-03 17:21:10,300 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2021-03-03 17:21:10,301 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2021-03-03 17:21:10,382 INFO  [log] Neha
+2021-03-03 17:21:10,406 INFO  [log] Welcome Neha check the list
+2021-03-03 17:21:10,445 INFO  [SoapUITestCaseRunner] running step [GetByID]
+2021-03-03 17:21:11,379 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-03-03 17:21:11,380 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-03-03 17:21:11,383 INFO  [SoapUITestCaseRunner] running step [Delete Customer]
+2021-03-03 17:21:12,686 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-03-03 17:21:12,690 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Get customer details], time taken: 5290ms, status: FINISHED
+2021-03-03 17:21:12,697 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Cust Suite]
+2021-03-03 17:21:12,701 INFO  [SoapUITestCaseRunner] running step [JDBC Request]
+2021-03-03 17:21:13,099 INFO  [SoapUITestCaseRunner] running step [Save]
+2021-03-03 17:21:14,149 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-03-03 17:21:14,149 INFO  [SoapUITestCaseRunner] running step [GetLIst]
+2021-03-03 17:21:27,547 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-03-03 17:21:27,551 INFO  [SoapUITestCaseRunner] running step [GetByID]
+2021-03-03 17:21:28,479 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-03-03 17:21:28,479 INFO  [SoapUITestCaseRunner] running step [Delete Customer]
+2021-03-03 17:21:29,974 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-03-03 17:21:29,984 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Cust Suite], time taken: 17260ms, status: FINISHED
+2021-03-03 17:21:29,985 INFO  [SoapUITestCaseRunner] Project [Customer Project1] finished with status [FINISHED] in 22718ms
